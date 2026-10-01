@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Open on iPhone",
+  "version": "1.0.0",
+  "description": "AirDrop the current page or a link to Hari\u2019s iPhone.",
+  "permissions": [
+    "contextMenus",
+    "nativeMessaging",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyQSs8BwYNHQGM9oykVvmKYsQlRerVpic4PR6s0gXkLZmiVieXjI+hqN7Co4wmUg1zw1aFBqJ8/iM3+v8sucSS5t6MklvKO3KY66EcuG8fkqBdAR2tTTPC4YbowFJAhwBLTr1l78n9PHgve3SqS+2R0E9/4RBUxIsIVf9NO6tC1Eq8BSaNIeXsdMVT4o5SEThftN8N/EleYuYiQxrPHt84hRLtAYOGUVTf6WWsL1AHOfEE9921UTt5XNDk3hzDBrAQXiyLfvp+V4rEjxdxGJKbvZHF5sGXxvv/JMkvG5Od5GvfJKNzDShFs0hxlenv7cbH4e7XAJ2uzluZnaHWAoHiQIDAQAB"
+}
